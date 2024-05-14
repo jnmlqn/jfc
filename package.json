@@ -1,0 +1,23 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc --noEmit && vite build",
+        "ts-check": "vue-tsc --noEmit"
+    },
+    "devDependencies": {
+        "@inertiajs/vue3": "^1.0.16",
+        "@types/ziggy-js": "^1.8.0",
+        "@vitejs/plugin-vue": "^5.0.4",
+        "@vue/tsconfig": "^0.5.1",
+        "axios": "^1.6.4",
+        "laravel-mix": "^6.0.49",
+        "laravel-vite-plugin": "^1.0",
+        "ts-loader": "^9.5.1",
+        "typescript": "^5.4.5",
+        "vite": "^5.0",
+        "vue": "^3.4.27",
+        "vue-tsc": "^2.0.16"
+    }
+}
